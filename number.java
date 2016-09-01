@@ -1,10 +1,13 @@
 import java.io.*;
 import java.util.*;
-public class number 
+public class zero 
 {
 public static void main(String args[])
 {
-int n=10;
+int n;
+Scanner in = new Scanner(System.in);
+      n = in.nextInt();
+
 if(n==0)
 {
 System.out.println("given num is zero");
