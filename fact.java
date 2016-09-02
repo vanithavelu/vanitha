@@ -15,7 +15,7 @@ Scanner in = new Scanner(System.in);
 n = in.nextInt();
 while(n!=0)
 {
-for(i=1;i<n;i++)
+for(i=1;i<=n;i++)
 {
 a=a*i;
 
