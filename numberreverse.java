@@ -2,25 +2,25 @@ import java.io.*;
 
 import java.util.*;
 
-public class reverse
+public class numberreverse
  
 {
 
 public static void main(String args[])
 
 {
-
-String s;
-
+int n,a,s=0;
 Scanner in = new Scanner(System.in);
       
-s = in.next();
-  
-StringBuffer s1=new StringBuffer(s);   
-s1.reverse();
-
-System.out.println(s1);
+n = in.nextInt();
+while(n!=0)
+{
+a=n%10;
+s=s*10+a;
+n=n/10;
 
 }
+System.out.println(s);
 
+}
 }
