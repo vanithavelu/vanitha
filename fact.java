@@ -13,15 +13,12 @@ int n,i,a=1;
 Scanner in = new Scanner(System.in);
       
 n = in.nextInt();
-while(n!=0)
-{
 for(i=1;i<=n;i++)
 {
 a=a*i;
 
 }
 System.out.println(a);
-}
 
 }
 }
