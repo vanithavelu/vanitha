@@ -2,25 +2,26 @@ import java.io.*;
 
 import java.util.*;
 
-public class numberreverse
+public class fact
  
 {
 
 public static void main(String args[])
 
 {
-int n,a,s=0;
+int n,i,a=1;
 Scanner in = new Scanner(System.in);
       
 n = in.nextInt();
 while(n!=0)
 {
-a=n%10;
-s=s*10+a;
-n=n/10;
+for(i=1;i<n;i++)
+{
+a=a*i;
 
 }
-System.out.println(s);
+System.out.println(a);
+}
 
 }
 }
